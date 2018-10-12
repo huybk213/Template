@@ -1,0 +1,37 @@
+
+T4A98 114:404 SEGGER J-Link V6.32i Log File (0007ms, 0057ms total)
+T4A98 114:404 DLL Compiled: Jul 24 2018 15:19:55 (0008ms, 0058ms total)
+T4A98 114:404 Logging started @ 2018-10-12 18:58 (0008ms, 0058ms total)
+T4A98 114:412 JLINK_SetWarnOutHandler(...) (0000ms, 0058ms total)
+T4A98 114:412 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Aug 23 2018 09:45:44
+Hardware: V9.40
+S/N: 59425868
+Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash, RDDI
+TELNET listener socket opened on port 19021WEBSRV 
+Starting webserver (0045ms, 0103ms total)
+T4A98 114:412 WEBSRV Webserver running on local port 19080 (0045ms, 0103ms total)
+T4A98 114:412   returns O.K. (0045ms, 0103ms total)
+T4A98 114:457 JLINK_GetEmuCaps()  returns 0xB9FF7BBF (0000ms, 0103ms total)
+T4A98 114:458 JLINK_TIF_GetAvailable(...) (0000ms, 0103ms total)
+T4A98 114:458 JLINK_SetErrorOutHandler(...) (0000ms, 0103ms total)
+T4A98 114:458 JLINK_ExecCommand("ProjectFile = "C:\Users\huybk213\Desktop\Template\Project\JLinkSettings.ini"", ...).   returns 0x00 (0170ms, 0273ms total)
+T4A98 114:628 JLINK_ExecCommand("Device = nRF52832_xxAA", ...). Device "NRF52832_XXAA" selected.  returns 0x00 (0026ms, 0299ms total)
+T4A98 114:654 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 0299ms total)
+T4A98 114:654 JLINK_GetHardwareVersion()  returns 0x16F30 (0000ms, 0299ms total)
+T4A98 114:654 JLINK_GetDLLVersion()  returns 63209 (0000ms, 0299ms total)
+T4A98 114:654 JLINK_GetFirmwareString(...) (0000ms, 0299ms total)
+T4A98 114:655 JLINK_GetDLLVersion()  returns 63209 (0000ms, 0299ms total)
+T4A98 114:655 JLINK_GetCompileDateTime() (0000ms, 0299ms total)
+T4A98 114:655 JLINK_GetFirmwareString(...) (0000ms, 0299ms total)
+T4A98 114:655 JLINK_GetHardwareVersion()  returns 0x16F30 (0000ms, 0299ms total)
+T4A98 114:655 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 0300ms total)
+T4A98 114:656 JLINK_SetSpeed(5000) (0000ms, 0300ms total)
+T4A98 114:656 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0300ms total)
+T4A98 114:656 JLINK_Reset() >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF>JLINK_GetId() >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF>  returns 0x00000000
+ (0284ms, 1390ms total)
+T4A98 115:746 JLINK_GetId() >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF> >0x10B TIF> >0x10F TIF>  returns 0x00000000 (0285ms, 1675ms total)
+T4A98 116:039 JLINK_GetFirmwareString(...) (0000ms, 1675ms total)
+T4A98 117:948 JLINK_Close() (0011ms, 1686ms total)
+T4A98 117:948  (0011ms, 1686ms total)
+T4A98 117:948 Closed (0011ms, 1686ms total)
